@@ -13,7 +13,7 @@
  See https://getbootstrap.com/docs/5.2/customize/css-variables/
  */
 body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
+  --bs-dark-rgb: var(--matr-navbar-bg-rgb);
   --bs-dark: var(--matr-navbar-bg);
   background: fixed center url("images/light-cloudbackground.jpg");
   background-size: cover;
