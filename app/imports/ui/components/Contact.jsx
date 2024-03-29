@@ -7,7 +7,7 @@ const Contact = ({ contact }) => (
   <Card className="h-100">
     <Card.Header>
       <Image src={contact.image} width={75} />
-      <Card.Title>{contact.firstname} {contact.lastname}</Card.Title>
+      <Card.Title>{contact.firstName} {contact.lastName}</Card.Title>
       <Card.Subtitle>{contact.address}</Card.Subtitle>
     </Card.Header>
     <Card.Body>
@@ -19,8 +19,8 @@ const Contact = ({ contact }) => (
 // Require a document to be passed to this component.
 Contact.propTypes = {
   contact: PropTypes.shape({
-    firstname: PropTypes.string,
-    lastname: PropTypes.string,
+    firstName: PropTypes.string,
+    lastName: PropTypes.string,
     address: PropTypes.string,
     image: PropTypes.string,
     description: PropTypes.string,
