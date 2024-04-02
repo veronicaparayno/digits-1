@@ -12,7 +12,7 @@ class NotesCollection {
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
     this.schema = new SimpleSchema({
-      notes: String,
+      note: String,
       contactId: String,
       owner: String,
       createdAt: Date,
